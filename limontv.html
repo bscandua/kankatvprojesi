@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canlı Yayın İzle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container-grid {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .player-grid iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .search-container input {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .poster-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .poster-grid img {
+            width: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .poster-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <script>
+        function changeVideo(url) {
+            document.getElementById("match-video").src = url;
+        }
+
+        function searchChannel() {
+            const searchInput = document.getElementById("search-input").value.toLowerCase();
+            const posters = document.querySelectorAll(".poster-grid img");
+
+            posters.forEach(poster => {
+                const altText = poster.alt.toLowerCase();
+                poster.style.display = altText.includes(searchInput) ? "block" : "none";
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="container-grid player-grid">
+        <div class="live-player">
+            <iframe id="match-video" src="https://ia.strmrdrfrosc.click/index.php?id=601#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Kanal arayın..." oninput="searchChannel()">
+    </div>
+
+    <div class="poster-grid">
+                                    <img src="https://r.resimlink.com/a6K-F.jpg" alt="Bein Sports 1" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=601#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://i.hizliresim.com/c240zhm.jpg" alt="Bein Sports 1 Yedek" onclick="changeVideo(&#39;https://mastercanlitv17.com/channel?id=yayinzirve&#39;)"/>
+                            <img src="https://r.resimlink.com/KeBZ_X.jpg" alt="Bein Sport 2" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=602#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://r.resimlink.com/etAOxo.jpg" alt="Bein Sports 3" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=603#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://r.resimlink.com/jRpDFXG.jpg" alt="Bein Sport 4" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=604#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://r.resimlink.com/npHDGuoJ4t.jpg" alt="Bein Sport 5" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=705#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://i.hizliresim.com/kkwywkc.jpg" alt="Bein Sports Max 1" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=805#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://i.hizliresim.com/cxrjqcd.jpg" alt="Bein Sports Max 2" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=806#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://r.resimlink.com/zIlrHL.jpg" alt="S Sport" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=3450#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <!-- Diğer posterler burada devam edecek -->
+                            <img src="https://r.resimlink.com/PHBXnK.jpg" alt="S Sport 2" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=3451#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://r.resimlink.com/XurD9BmcAQy.jpg" alt="Spor Smart" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=102#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://r.resimlink.com/9YxLVKC6IkH.jpg" alt="Spor Smart 2" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=104#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://r.resimlink.com/mF3MQN8PAqDk.jpg" alt="Tivibu Spor 1" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=606#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://r.resimlink.com/KWDsLZm.jpg" alt="Tivibu Spor 2" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=607#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://r.resimlink.com/Ib4nOT.jpg" alt="Tivibu Spor 3" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=608#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://r.resimlink.com/jNG32dQg.jpg" alt="Tivibu Spor 4" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=609#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+                            <img src="https://i.hizliresim.com/7htq7a7.jpg" alt="Tabii Spor" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2FSFTVrkiJ6Gb1UvNIrPbo8cSGY.medya.trt.com.tr%2Fmaster_1080p.m3u8&#39;)"/>
+                            <img src="https://i.hizliresim.com/swk4pqu.jpg" alt="Tabii Spor 1" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2FOMTfm36b1E2HpRagYzd5VwuE0.medya.trt.com.tr%2Fmaster_1080p.m3u8&#39;)"/>
+                            <img src="https://i.hizliresim.com/azp5il9.jpg" alt="Tabii Spor 2" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2F7rXNdPk01F2bvoV7TwJltXJRd.medya.trt.com.tr%2Fmaster_1080p.m3u8&#39;)"/>
+                            <img src="https://i.hizliresim.com/81gk3vf.jpg" alt="Tabii Spor 3" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2FAjA9QKfqMvB0zghiXXrci30Rj.medya.trt.com.tr%2Fmaster_1080p.m3u8&#39;)"/>
+                            <img src="https://i.hizliresim.com/ipfgo3c.jpg" alt="Tabii Spor 4" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2FditvZPcGdZNWyfx6nCH4hhP69.medya.trt.com.tr%2Fmaster_1080p.m3u8&#39;)"/>
+                            <img src="https://i.hizliresim.com/iqe2omb.jpg" alt="Tabii Spor 5" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2FBHf7hmM8Y9RRHoFCa70k2nkF5.medya.trt.com.tr%2Fmaster_1080p.m3u8&#39;)"/>
+                            <img src="https://i.hizliresim.com/jmqlijm.jpg" alt="Tabii Spor 6" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2FsSToObkb93QGEjJfkP4ny7nXD.medya.trt.com.tr%2Fmaster_1080p.m3u8&#39;)"/>
+                            <img src="https://i.hizliresim.com/l5b33iu.jpg" alt="ATV" onclick="changeVideo(&#39;https://mastercanlitv17.com/channel?id=yayinatv&#39;)"/>
+                            <img src="https://i.hizliresim.com/ibzp7qt.jpg" alt="TRT 1" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2Ftv-trt1.medya.trt.com.tr%2Fmaster_1080.m3u8&#39;)"/>
+                            <img src="https://i.hizliresim.com/nlver18.jpg" alt="TV 8" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2Ftv8-live.daioncdn.net%2Ftv8%2Ftv8_1080p.m3u8&#39;)"/>
+                            <img src="https://i.hizliresim.com/rws97z1.jpg" alt="TV 8,5" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2Ftv8-live.daioncdn.net%2Ftv8bucuk%2Ftv8bucuk_1080p.m3u8&#39;)"/>
+                            <img src="https://i.hizliresim.com/ehznwi2.jpg" alt="National Geographic Wild" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2Fone.fbf1eb5f21ff67.shop%2Flive%2Fnatgeowild%2Fplaylist.m3u8%3Flive%3Dtrue&#39;)"/>
+                            <img src="https://i.hizliresim.com/oez9jiv.jpg" alt="History Channel" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2Fone.fbf1eb5f21ff67.shop%2Flive%2Fhistory%2Fplaylist.m3u8%3Flive%3Dtrue&#39;)"/>
+                            <img src="https://i.hizliresim.com/aij8zrt.jpg" alt="Bein İz" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2Fone.fbf1eb5f21ff67.shop%2Flive%2Fbeiniz%2Fplaylist.m3u8%3Flive%3Dtrue&#39;)"/>
+                            <img src="https://i.hizliresim.com/gv9na70.jpg" alt="Viasat History" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2Fone.fbf1eb5f21ff67.shop%2Flive%2Fviasat%2Fplaylist.m3u8%3Flive%3Dtrue&#39;)"/>
+                            <img src="https://i.hizliresim.com/7r3doq2.jpg" alt="BBC Earth" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2Fone.fbf1eb5f21ff67.shop%2Flive%2Fbbcearth%2Fplaylist.m3u8%3Flive%3Dtrue&#39;)"/>
+                            <img src="https://i.hizliresim.com/czgycch.jpg" alt="D Max" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2Fone.fbf1eb5f21ff67.shop%2Flive%2Fdmax%2Fplaylist.m3u8%3Flive%3Dtrue&#39;)"/>
+                            <img src="https://r.resimlink.com/OS06CxmAU.jpg" alt="TRT Spor" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2Ftv-trtspor1.medya.trt.com.tr%2Fmaster_1080.m3u8&#39;)"/>
+                            <img src="https://r.resimlink.com/E5tqso04.jpg" alt="TRT Spor Yıldız" onclick="changeVideo(&#39;https://www.hlsplayer.org/play?url=https%3A%2F%2Ftv-trtspor2.medya.trt.com.tr%2Fmaster_720.m3u8&#39;)"/>
+                            <img src="https://r.resimlink.com/Zc8LmgaexQG.jpg" alt="A Spor" onclick="changeVideo(&#39;https://ia.strmrdrfrosc.click/index.php?id=172#poster=https://i.hizliresim.com/kfa8m74.jpg&amp;=1&#39;)"/>
+    </div>
+</body>
+</html>
