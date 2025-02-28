@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GARAVELİ FORUM IPTV M3U Dosya Okuyucu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .buttons {
+            margin: 20px 0;
+        }
+        .buttons button {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+            background-color: #0056b3;
+        }
+        .channel-table, .weather-table {
+            margin: 20px auto;
+            width: 80%;
+            border-collapse: collapse;
+            overflow-x: auto;
+        }
+        .channel-table th, .channel-table td, .weather-table th, .weather-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .channel-table th, .weather-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .scrollable {
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+        }
+        .weather {
+            margin: 20px 0;
+        }
+        .clock {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            display: inline-block;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GARAVELİ FORUM IPTV M3U Dosya Okuyucu</h1>
+        <div id="clock" class="clock"></div>
+    </header>
+    <div class="container">
+        <input type="file" id="fileInput" accept=".m3u">
+        <div class="buttons">
+            <button id="copyAllBtn">Bilgilerin Tümünü Kopyala</button>
+            <button id="deleteFileBtn">Dosyayı Sil</button>
+            <button id="editFileBtn">Dosyayı Düzenle</button>
+        </div>
+        <div id="channelList" class="scrollable"></div>
+    </div>
+    <div class="weather">
+        <h2>Türkiye İlleri Hava Tahmini</h2>
+        <div id="weatherInfo" class="scrollable"></div>
+    </div>
+    <footer>
+        <p>&copy;GARAVELİ FORUM 2024 IPTV M3U Dosya Okuyucu Kodlayan:@osmanlitokadi</p>
+    </footer>
+
+    <script>
+        // Renk değiştirme fonksiyonu
+        function changeBackgroundColor() {
+            const colors = ['#f0f0f0', '#ffdddd', '#ddffdd', '#ddddff'];
+            document.body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        }
+        setInterval(changeBackgroundColor, 10000); // 10 saniyede bir renk değiştir
+
+        // Dijital saat ve tarih
+        function updateClock() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const year = now.getFullYear();
+            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds} ${day}/${month}/${year}`;
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        // Dosya işlemleri ve tablo gösterimi
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const contents = e.target.result;
+                displayChannels(contents);
+            };
+            reader.readAsText(file);
+        });
+
+        let channels = [];
+
+        function displayChannels(m3uContent) {
+            const channelListDiv = document.getElementById('channelList');
+            channelListDiv.innerHTML = ''; // Clear any previous content
+
+            const lines = m3uContent.split('\n');
+            let channelInfo = '';
+
+            channels = []; // Clear the previous channels list
+
+            lines.forEach(line => {
+                line = line.trim();
+                if (line.startsWith('#EXTINF:')) {
+                    const info = line.split(',', 2);
+                    if (info.length > 1) {
+                        channelInfo = { name: info[1], url: '' };
+                    }
+                } else if (line && !line.startsWith('#')) {
+                    if (channelInfo) {
+                        channelInfo.url = line;
+                        channels.push(channelInfo);
+                        channelInfo = null;
+                    }
+                }
+            });
+
+            updateChannelTable();
+        }
+
+        function updateChannelTable() {
+            const channelListDiv = document.getElementById('channelList');
+            let tableHTML = '<table class="channel-table"><thead><tr><th>Kanal Adı</th><th>URL</th><th>İşlem</th></tr></thead><tbody>';
+            channels.forEach((channel, index) => {
+                tableHTML += `<tr>
+                    <td>${channel.name}</td>
+                    <td>${channel.url}</td>
+                    <td><button onclick="deleteChannel(${index})">Sil</button></td>
+                </tr>`;
+            });
+            tableHTML += '</tbody></table>';
+
+            channelListDiv.innerHTML = tableHTML;
+        }
+
+        function deleteChannel(index) {
+            channels.splice(index, 1);
+            updateChannelTable();
+        }
+
+        // Hava durumu bilgileri
+        const cities = ['İstanbul', 'Ankara', 'İzmir', 'Bursa', 'Adana', 'Antalya', 'Konya', 'Kayseri', 'Mersin', 'Eskişehir','Osmaniye'];
+        function fetchWeatherData() {
+            const weatherInfoDiv = document.getElementById('weatherInfo');
+            weatherInfoDiv.innerHTML = ''; // Clear previous content
+
+            let tableHTML = '<table class="weather-table"><thead><tr><th>Şehir</th><th>Hava Durumu</th></tr></thead><tbody>';
+            cities.forEach(city => {
+                tableHTML += `<tr><td>${city}</td><td>25°C, Güneşli</td></tr>`; // Örnek veri
+            });
+            tableHTML += '</tbody></table>';
+
+            weatherInfoDiv.innerHTML = tableHTML;
+        }
+        fetchWeatherData();
+
+        // Dosya işlemleri için placeholder fonksiyonlar
+        document.getElementById('copyAllBtn').addEventListener('click', function() {
+            const channelListText = channels.map(channel => `Kanal Adı: ${channel.name}, URL: ${channel.url}`).join('\n');
+            navigator.clipboard.writeText(channelListText).then(() => {
+                alert('Bilgilerin tümü kopyalandı!');
+            });
+        });
+
+        document.getElementById('deleteFileBtn').addEventListener('click', function() {
+            document.getElementById('fileInput').value = ''; // Seçili dosyayı temizle
+            document.getElementById('channelList').innerHTML = ''; // Listeyi temizle
+            channels = []; // Kanal listesini temizle
+            alert('Dosya silindi!');
+        });
+
+        document.getElementById('editFileBtn').addEventListener('click', function() {
+            alert('Dosya düzenleme işlemi!');
+        });
+    </script>
+</body>
+</html>
