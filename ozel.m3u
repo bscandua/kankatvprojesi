@@ -1,0 +1,555 @@
+#EXTINF:24,tv-trt1
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:24,tv-trt1 480
+https://tv-trt1.medya.trt.com.tr/master_480.m3u8
+#EXTINF:24,tv-trt1 360
+https://tv-trt1.medya.trt.com.tr/master_360.m3u8
+#EXTINF:24,atv HD
+#EXTVLCOPT:network-caching=1000
+https://mehmetaslan.serv00.net/atvHD?ID=https://trkvz.daioncdn.net/atv/atv_1080p.m3u8&CDN=app=d5eb593f-39d9-4b01-9cfd-4748e8332cf0&ce=3
+#EXTINF:24,Atv
+#EXTVLCOPT:network-caching=1000
+http://89.187.191.41/ATV-HD-TR/video.m3u8
+#EXTINF:24,Atv
+http://89.187.191.41/A2-HD-TR/tracks-v1a1/mono.ts.m3u8
+#EXTINF:24,ATV
+#EXTVLCOPT:network-caching=1000
+http://116.202.238.88/ATV_TR/tracks-v1a1/index.m3u8
+#EXTINF:24,ATV
+http://116.202.238.88/ATV_TR/index.m3u8
+#EXTINF:24,ATV
+http://89.187.191.41/A2-HD-TR/video.m3u8
+#EXTINF:30,Atv
+#EXTVLCOPT:network-caching=1000
+http://50.7.144.122:1935/livetv/atv.stream/sec-f5-v1-a1.m3u8
+#EXTINF:30,ATV
+https://yayin2.canlitv.fun/livetv/at.../playlist.m3u8
+#EXTINF:24,ATV
+https://c.fulltvizle.com/aytv/index.m3u8
+#EXTINF:2630,ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
+#EXTINF:24,atv-a
+#EXTVLCOPT:network-caching=1000
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
+#EXTINF:24,atv-b
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
+#EXTINF:0,ATV-c
+http://50.7.144.122:1935/livetv/atv.stream/sec-f5-v1-a1.m3u8
+#EXTINF:0,ATV-d
+http://89.187.191.41/ATV-HD-TR/video.m3u8
+#EXTINF:0,gt-kibriskrttv
+http://162.212.179.33/gin-36bay3/gt-kibriskrttv/tracks-v1a1/mono.m3u8
+#EXTINF:24,KRT TV
+https://162.212.179.34/trn03/gt-krttv/tracks-v1a1/mono.m3u8
+ #EXTINF:24,teve2np
+https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_0_192/playlist.m3u8
+#EXTINF:24,teve2np
+https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
+#EXTINF:24,teve2
+https://helga.iptv2022.com/teve_2/index.m3u8
+#EXTINF:24,teve2
+https://demiroren-live.daioncdn.net/teve2/teve2_480p.m3u8
+#EXTINF:24,teve2
+https://demiroren-live.daioncdn.net/teve2/teve2_1080p.m3u8
+#EXTINF:24,a2tv_1080p
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
+#EXTINF:24,tv360
+https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
+#EXTINF:24,tv360_1080p
+https://tv.ensonhaber.com/tv360/tv360_1080p.m3u8
+#EXTINF:0,BEYAZTV_TR
+http://116.202.238.88/BEYAZTV_TR/index.m3u8
+#EXTINF:0,BEYAZTV_TR1080p
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
+#EXTINF:0,TV8_TR
+http://116.202.238.88/TV8_TR/index.m3u8
+#EXTINF:0,FOXTV_TR
+http://116.202.238.88/FOXTV_TR/index.m3u8
+#EXTINF:0,nowtv_720p
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
+#EXTINF:0, tv 1
+http://iptv.prosto.tv:7000/ch331/video.m3u8
+#EXTINF:0,startv
+https://dogus-live.daioncdn.net/startv/startv_480p.m3u8
+#EXTINF:0,startv_720p
+https://dogus-live.daioncdn.net/startv/startv_720p.m3u8
+
+
+http://live3pop04.kablowebtv.com/Live/HLS/2008/2500.m3u8
+GET /Live/HLS/2008/2500.m3u8 HTTP/1.1
+User-Agent: kopernik
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live3pop04.kablowebtv.com
+Connection: Keep-Alive
+
+http://live3pop04.kablowebtv.com/Live/HLS/2031/2500.m3u8
+GET /Live/HLS/2031/2500.m3u8 HTTP/1.1
+User-Agent: kopernik
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live3pop04.kablowebtv.com
+Connection: Keep-Alive
+
+http://live3pop04.kablowebtv.com/Live/HLS/4081/2500.m3u8
+GET /Live/HLS/4081/2500.m3u8 HTTP/1.1
+User-Agent: kopernik
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live3pop04.kablowebtv.com
+Connection: Keep-Alive
+
+http://live3pop04.kablowebtv.com/Live/HLS/4135/2500.m3u8
+GET /Live/HLS/4135/2500.m3u8 HTTP/1.1
+User-Agent: kopernik
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live3pop04.kablowebtv.com
+Connection: Keep-Alive
+
+http://live3pop04.kablowebtv.com/Live/HLS/4129/2500.m3u8
+GET /Live/HLS/4129/2500.m3u8 HTTP/1.1
+User-Agent: kopernik
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live3pop04.kablowebtv.com
+Connection: Keep-Alive
+
+#EXTINF:24,/showtv_1080p
+https://bloomberght-live.daioncdn.net/showtv/showtv_1080p.m3u8
+#EXTINF:24,SHOWTV_TR
+http://116.202.238.88/SHOWTV_TR/index.m3u8
+
+#EXTINF:24,kanal7
+https://x.canlitvapp.com/kanal7/index.m3u8
+#EXTINF:24,kanal7_480p
+https://kanal7-live.daioncdn.net/kanal7/kanal7_480p.m3u8
+#EXTINF:24,kanal7_1080p
+https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
+#EXTINF:24,TV8.5_TR
+http://116.202.238.88/TV8.5_TR/index.m3u8
+#EXTINF:24,TV8.5_TR
+https://tv8-live.daioncdn.net/tv8bucuk/tv8bucuk_1080p.m3u8
+https://helga.iptv2022.com/vod/banner_update/banner_update-01.mp4/index.m3u8
+#EXTINF:24,BEİNSPOR 1 TİTANTV 
+https://api.codetabs.com/v1/proxy/?quest=https://titantv2024.serv00.net/Vertapen/getnew3u/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzU5MzQ5Mzg2MDQxODk1MDY1YjExYg==
+#EXTINF:24,BEİNSPOR 1 TİTANTV
+https://api.codetabs.com/v1/proxy/?quest=https://titantv2024.serv00.net/Vertapen/getnew3u/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQ5OTQ4NTQ5NzRkZjA5MTY5ZWE1MA==
+#EXTINF:24,BEİNSPOR 1 TİTANTV
+https://api.codetabs.com/v1/proxy/?quest=https://titantv2024.serv00.net/Vertapen/getnew3u/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI2NzEwNTg4OTI0NTkxMDNkZTc3YQ==
+#EXTINF:24,BEİNSPOR 1 TİTANTV
+https://api.codetabs.com/v1/proxy/?quest=https://titantv2024.serv00.net/Vertapen/getnew3u/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE1MzY3MzA2MjdlMzcwYTkxYThjM2Y=
+#EXTINF:0,aspor
+#EXTVLCOPT:network-caching=1000
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+
+#EXTINF:0,aspor1080p
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
+#EXTINF:0,aspor480p
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8
+#EXTINF:0,ht-spor
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+#EXTINF:0,Sspor
+https://217.30.11.74/e/155.m3u8
+#EXTINF:0,Sspor 2
+https://217.30.11.74/e/156.m3u8
+#EXTINF:0,ht-spor_1080p
+https://ciner.daioncdn.net/ht-spor/ht-spor_1080p.m3u8
+#EXTINF:0,trtspor
+https://tv-trtspor-esdai.medya.trt.com.tr/master_720p_primary_20250227T000332_235116.ts?platform=trtspor
+
+https://ciner.daioncdn.net/ht-spor/ht-spor_480p.m3u8
+#EXTINF:0,fenerbahcetv
+https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
+s#EXTINF:0,portstv_fhd
+https://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
+#EXTINF:0,köprülüyoutube
+https://ythls.kekikakademi.org/youtube/channel/UCVKWwHoLwUMMa80cu_1uapA.m3u8
+#EXTINF:0,trtspor
+https://trt.daioncdn.net/trtspor/master.m3u8?app=web&platform=trtspor
+#EXTINF:0,trtspor-yildiz
+https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
+#EXTINF:0,trtspor 480p
+https://tv-trtspor2-esdai.medya.trt.com.tr/master_480p_primary_234829.ts?platform=trtspor
+#EXTINF:0,eurosport1
+https://urosport1.blutv.com/blutv_eurosport1/smil:eurosport1.smil/playlist.m3u8
+GET /blutv_eurosport1/smil:eurosport1.smil/playlist.m3u8 HTTP/1.1
+User-Agent: yazar.sports2/9.8 (Linux;Android 9) AndroidXMedia3/1.1.1
+Accept-Encoding: gzip
+Host: eurosport1.blutv.com
+Connection: Keep-Alive
+
+
+https://eurosport2.blutv.com/blutv_eurosport2/smil:eurosport2.smil/playlist.m3u8
+GET /blutv_eurosport2/smil:eurosport2.smil/playlist.m3u8 HTTP/1.1
+User-Agent: yazar.sports2/9.8 (Linux;Android 9) AndroidXMedia3/1.1.1
+Accept-Encoding: gzip
+Host: eurosport2.blutv.com
+Connection: Keep-Alive
+
+https://eurosport2.blutv.com/blutv_eurosport2/smil:eurosport2.smil/chunklist.m3u8
+#EXTINF:0,Sspor
+https://bcovlive-a.akamaihd.net/540fcb034b144b848e7ff887f61a293a/eu-central-1/6415845530001/profile_0/chunklist.m3u8
+#EXTINF:0,aSPOR HD
+http://mehmetaslan.serv00.net/atvHD?ID=https://trkvz.daioncdn.net/aspor/aspor_1080p.m3u8&CDN=app=b6bf3b55-0120-4e0f-983b-a6c7969f9ec6&ce=3
+#EXTINF:0,aHBR
+http://mehmetaslan.serv00.net/atvHD?...erhd_720p.m3u8
+#EXTINF:0,aPARA
+http://mehmetaslan.serv00.net/atvHD?...rahd_720p.m3u8
+#EXTINF:0,VAV TV
+http://mehmetaslan.serv00.net/atvHD?...ndvr_720p.m3u8
+#EXTINF:0,A NEWS TV
+http://mehmetaslan.serv00.net/atvHD?...wshd_720p.m3u8
+#EXTINF:0,minika GO
+http://mehmetaslan.serv00.net/atvHD?...c3fcf4814&ce=3
+#EXTINF:0,minika ÇOCUK
+http://mehmetaslan.serv00.net/atvHD?...c4c81f15a&ce=3
+#EXTINF:0,Now HD
+http://mehmetaslan.serv00.net/Now
+****BELGESEL***
+#EXTINF:0,blutv_dmax2
+https://dmax.blutv.com/blutv_dmax2/live.m3u8
+#EXTINF:0,blutv_tlc_live
+https://tlc.blutv.com/blutv_tlc_live/live.m3u8
+#EXTINF:0,blutv_tlc_live
+https://tlc.blutv.com/blutv_tlc_live/live_360p1900000kbps/index.m3u8
+#EXTINF:0,trtbelgesel 720P
+http://tv-trtbelgesel.medya.trt.com.tr/master_720.m3u8
+
+https://live4pop01.kablowebtv.com/Live/HLS/4073/2500.m3u8
+GET /Live/HLS/4073/2500.m3u8 HTTP/1.1
+User-Agent: ExoPlayerDemo/1.14 (Linux;Android 10) ExoPlayerLib/1.5.11
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live4pop01.kablowebtv.com
+Connection: Keep-Alive
+
+https://alpha.cf-worker-820829d825636a1e.workers.dev/live/6g3Ofwz9jCy/aP0FrhoP7goR3P0CBx3SmgzLzxnQiwzTrP3Uqd4PYCnR7DmDrP0VfdoOeC45ntoPuPxNutnMedzUmSx9vdoBzty
+GET /live/6g3Ofwz9jCy/aP0FrhoP7goR3P0CBx3SmgzLzxnQiwzTrP3Uqd4PYCnR7DmDrP0VfdoOeC45ntoPuPxNutnMedzUmSx9vdoBzty HTTP/1.1
+Origin: https://dcdlplayerd91af.xyz
+User-Agent: kopernik
+Referer: https://dcdlplayerd91af.xyz
+Accept-Encoding: identity
+Host: alpha.cf-worker-820829d825636a1e.workers.dev
+Connection: Keep-Alive
+#EXTINF:0,beiniz
+https://one.fbf1eb5f21ff67.shop/live/beiniz/playlist.m3u8
+
+https://alpha.cf-worker-820829d825636a1e.workers.dev/live/WBC1FvCy/aPy9VgoLBx2L3PyIvt2SadoHjxnLvx4PrPyErw3PadnPzDmLfDnUfPyANw45fdnRePxV69nABdoC3PxTygnOadz
+#EXTINF:0,discovery
+https://one.fbf1eb5f21ff67.shop/live/discovery/playlist.m3u8?live=true
+#EXTINF:0,bbcearth
+https://one.fbf1eb5f21ff67.shop/live/bbcearth/playlist.m3u8
+
+http://live4pop04.kablowebtv.com/Live/HLS/4120/2500.m3u8
+GET /Live/HLS/4120/2500.m3u8 HTTP/1.1
+User-Agent: ExoPlayerDemo/1.14 (Linux;Android 10) ExoPlayerLib/1.5.11
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live4pop04.kablowebtv.com
+Connection: Keep-Alive
+
+http://live4pop04.kablowebtv.com/Live/HLS/1024/2500.m3u8
+GET /Live/HLS/1024/2500.m3u8 HTTP/1.1
+User-Agent: ExoPlayerDemo/1.14 (Linux;Android 10) ExoPlayerLib/1.5.11
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live4pop04.kablowebtv.com
+Connection: Keep-Alive
+
+http://live5pop04.kablowebtv.com/Live/HLS/1031/1200.m3u8
+GET /Live/HLS/1031/1200.m3u8 HTTP/1.1
+User-Agent: ExoPlayerDemo/1.14 (Linux;Android 10) ExoPlayerLib/1.5.11
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live5pop04.kablowebtv.com
+Connection: Keep-Alive
+
+http://live5pop04.kablowebtv.com/Live/HLS/2014/2500.m3u8
+GET /Live/HLS/2014/2500.m3u8 HTTP/1.1
+User-Agent: ExoPlayerDemo/1.14 (Linux;Android 10) ExoPlayerLib/1.5.11
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live5pop04.kablowebtv.com
+Connection: Keep-Alive
+
+http://live6pop01.kablowebtv.com/Live/HLS/2006/2500.m3u8
+GET /Live/HLS/2006/2500.m3u8 HTTP/1.1
+User-Agent: ExoPlayerDemo/1.14 (Linux;Android 10) ExoPlayerLib/1.5.11
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live6pop01.kablowebtv.com
+Connection: Keep-Alive
+
+http://live5pop04.kablowebtv.com/Live/HLS/4243/4243.m3u8
+GET /Live/HLS/4243/4243.m3u8 HTTP/1.1
+User-Agent: ExoPlayerDemo/1.14 (Linux;Android 10) ExoPlayerLib/1.5.11
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live5pop04.kablowebtv.com
+Connection: Keep-Alive
+
+http://live5pop04.kablowebtv.com/Live/HLS/4243/2500.m3u8
+GET /Live/HLS/4243/2500.m3u8 HTTP/1.1
+User-Agent: ExoPlayerDemo/1.14 (Linux;Android 10) ExoPlayerLib/1.5.11
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live5pop04.kablowebtv.com
+Connection: Keep-Alive
+
+
+http://live5pop04.kablowebtv.com/Live/HLS/4243/500.m3u8
+GET /Live/HLS/4243/500.m3u8 HTTP/1.1
+User-Agent: ExoPlayerDemo/1.14 (Linux;Android 10) ExoPlayerLib/1.5.11
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live5pop04.kablowebtv.com
+Connection: Keep-Alive
+
+
+#EXTINF:0,history
+https://one.fbf1eb5f21ff67.shop/live/history/playlist.m3u8?live=true
+
+#EXTINF:0,BELGESEL HD
+https://content.tvkur.com/l/c7e1da7mm25p552d9u9g/index-1080p.m3u8
+#EXTINF:0,HDciftcitv
+https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8
+
+#EXTINF:0,HD
+http://89.36.94.225:80/956bassem/BHrMOpKtyb/1632
+#EXTINF:0,HD
+http://89.36.94.225:80/956bassem/BHrMOpKtyb/1633
+#EXTINF:0,HD
+http://89.36.94.225:80/956bassem/BHrMOpKtyb/1634
+#EXTINF:0,HD
+http://89.36.94.225:80/956bassem/BHrMOpKtyb/1635
+#EXTINF:0,HD
+http://89.36.94.225:80/956bassem/BHrMOpKtyb/1636
+#EXTINF:0,HD
+http://89.36.94.225:80/956bassem/BHrMOpKtyb/1637
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a012/index.m3u8?token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a011/index.m3u8?token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a013/index.m3u8?token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a018/index.m3u8?token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a022/index.m3u8?token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a021/index.m3u8?token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a025/index.m3u8?token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a029/index.m3u8token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a032/index.m3u8?token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a033/index.m3u8token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a034/index.m3u8?token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a036/index.m3u8token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a035/index.m3u8?token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a039/index.m3u8?token=livetv
+#EXTINF:0,KÖPRÜLÜ
+http://65.21.85.175:8000/play/a037/index.m3u8?token=livetv
+#EXTINF:0,spor 1
+https://217.30.11.74/e/156.m3u8
+#EXTINF:0,spor 2
+https://217.30.11.74/e/155.m3u8
+#EXTINF:0,spor 1
+https://217.30.11.74/e/159.m3u8
+#EXTINF:0,spor 1
+https://217.30.11.74/e/158.m3u8
+#EXTINF:0,spor 1
+https://217.30.11.74/e/160.m3u8
+#EXTINF:0,spor 1
+https://217.30.11.74/e/157.m3u8
+#EXTINF:0,spor 1
+https://217.30.11.74/e/201.m3u8
+#EXTINF:0,spor 1
+https://217.30.11.74/e/350.m3u8
+#EXTINF:0,spor 1
+https://217.30.11.74/e/3030.m3u8
+#EXTINF:0,spor 1
+https://217.30.11.74/e/3031.m3u8
+#EXTINF:0,SİNEMA 1
+https://ip240.avrupatelekom.com:3142/stream/play.m3u8
+#EXTINF:0,SİNEMA 1
+https://ip240.avrupatelekom.com:3153/stream/play.m3u8
+#EXTINF:0,SİNEMA 1
+https://ip240.avrupatelekom.com:3178/stream/play.m3u8
+#EXTINF:0,SİNEMA 1
+https://ip240.avrupatelekom.com:3520/stream/play.m3u8
+#EXTINF:0,SİNEMA 1
+https://ip240.avrupatelekom.com:3710/stream/play.m3u8
+#EXTINF:0,SİNEMA 1
+https://ip240.avrupatelekom.com:3745/stream/play.m3u8
+#EXTINF:0,SİNEMA 1
+https://ip240.avrupatelekom.com:3781/stream/play.m3u8
+#EXTINF:0,SİNEMA 1
+https://a8.radyotelekom.com.tr:3335/stream/play.m3u8
+#EXTINF:0,SİNEMA 1
+https://a8.radyotelekom.com.tr:3417/stream/play.m3u8
+#EXTINF:0,SİNEMA 1
+https://a8.radyotelekom.com.tr:3468/stream/play.m3u8
+#EXTINF:0,SİNEMA 1
+https://a8.radyotelekom.com.tr:3513/stream/play.m3u8
+#EXTINF:0,SİNEMA 1
+https://a8.radyotelekom.com.tr:3580/stream/play.m3u8
+#EXTINF:0,SİNEMA 1
+https://a8.radyotelekom.com.tr:3706/stream/play.m3u8
+
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00f/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00e/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a034/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a035/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01p/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00g/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00h/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a036/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a037/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a033/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a021/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00i/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a02u/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a02j/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a02l/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a025/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01s/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a02d/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01v/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01w/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01x/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01y/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a02i/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01z/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a011/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a012/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a022/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a032/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00j/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00k/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00l/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00m/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00n/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00w/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00o/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01h/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01u/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a013/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00p/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01g/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01c/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a02a/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a02b/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01a/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01b/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00d/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00c/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a029/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00t/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01l/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01m/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01o/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00r/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01d/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a018/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01f/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01e/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01k/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00q/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01j/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00z/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00x/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00y/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01r/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00u/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a00v/index.m3u8?token=livetv
+#EXTINF:0,dene 1
+http://65.21.85.175:8000/play/a01t/index.m3u8?token=livetv
+
+****çocuk***
+http://live6pop04.kablowebtv.com/Live/HLS/2013/2500.m3u8
+GET /Live/HLS/2013/2500.m3u8 HTTP/1.1
+User-Agent: ExoPlayerDemo/1.14 (Linux;Android 10) ExoPlayerLib/1.5.11
+Cookie: : ASP.NET_SessionId=dt2zddk32q0rwo7rdmev4u2m; emwId=d35cb6a8-1af5-4331-b2b0-651b839899fc; eSessionId=0
+Accept-Encoding: gzip
+Host: live6pop04.kablowebtv.com
+Connection: Keep-Alive
+#EXTINF:0,Niloya
+https://ythls.kekikakademi.org/youtube/channel/UCKFIi1uWM9BCMb7O_GyvBsQ.m3u8
+#EXTINF:0,blutv_cartoonnetwork
+https://cartoonnetwork.blutv.com/blutv_cartoonnetwork/live.m3u8
+#EXTINF:0,minikago_720p
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8
